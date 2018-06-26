@@ -1,61 +1,61 @@
  
-13:39:41 - Abrir navegador em Gerar Versao    
-13:39:59 - Editar Change.log da 5.0.2     
-13:40:30 - Editar Change.log da 5.0.3     
-13:40:30 - Limpar DCUs 5.0.2      
-13:40:30 - Limpar Flextotal       
-13:40:32 - Limpar FrameworkDelphi       
-13:40:33 - Limpar Integracao       
-13:40:33 - Limpar NucleoFlextotal       
-13:40:34 - Limpar ACBr       
-13:40:34 - Update Fontes Versao 5.0.2     
-13:40:35 - Update 5.0.2       
-13:40:35 - Update svnteste       
-13:40:52 - Limpar DCUs 5.0.3      
-13:40:52 - Limpar Flextotal       
-13:40:55 - Limpar FrameworkDelphi       
-13:40:55 - Limpar Integracao       
-13:40:55 - Limpar NucleoFlextotal       
-13:40:56 - Limpar ACBr       
-13:40:57 - Update Fontes Versao 5.0.3     
-13:40:57 - Update 5.0.3       
-13:40:57 - Alterar a Versao nos Projetos da 5.0.2  
-13:40:57 - Incrementa FlexSmart       
-13:40:57 - Update svntrunk       
-13:40:58 - Incrementa Integrador       
-13:40:58 - Incrementa Importador       
-13:40:59 - Abrir Delphi e Construir Projetos da 5.0.2  
-13:41:13 - Update Change.log no trunk     
-13:41:15 - Alterar a Versao nos Projetos da 5.0.3  
-13:41:15 - Incrementa FlexSmart       
-13:41:15 - Incrementa Integrador       
-13:41:15 - Incrementa Importador       
-13:41:16 - Abrir Delphi e Construir Projetos da 5.0.3  
-13:46:39 - Copiar Arquivos para Distribuicao     
-13:46:39 - Copiar Executaveis para svntrunk     
-13:46:42 - Copiar Mapas para svntrunk     
-13:46:42 - Copiar DDLs para svntrunk     
-13:46:46 - Copiar Change.log para svntrunk     
-13:46:46 - Copiar Change.log para trunk     
-13:46:46 - Commit 5.0.3       
-13:46:46 - Commit C:\Fontes\flextotal_5_0_3       
-13:47:04 - Commit C:\Distribuicao\svntrunk       
-13:47:13 - Compactar Executaveis       
-13:47:13 - Compactar FlexSmart       
-13:47:14 - Compactar Importador       
-13:47:14 - Compactar Integrador       
-13:48:25 - Copiar Arquivos para Distribuicao     
-13:48:25 - Copiar Executaveis para svnteste     
-13:48:26 - Copiar Mapas para svnteste     
-13:48:26 - Copiar DDLs para svnteste     
-13:48:28 - Copiar Change.log para svnteste     
-13:48:28 - Commit 5.0.2       
-13:48:28 - Commit C:\Fontes\flextotal_5_0_2       
-13:48:39 - Commit C:\Distribuicao\svnteste       
-13:49:08 - Commit C:\Fontes\trunk\Change.log       
-13:49:12 - Alterar a SITUACAO dos chamados da 5.0.3  
-13:49:12 - Atribuir os chamados a NINGUEM    
-13:49:12 - COLAR o Log dos chamados da 5.0.3  
-13:49:27 - Alterar a SITUACAO dos chamados da 5.0.2  
-13:49:27 - Atribuir os chamados a NINGUEM    
-13:49:27 - COLAR o Log dos chamados da 5.0.2  
+ 9:16:13 - Abrir navegador em Gerar Versao    
+ 9:16:25 - Editar Change.log da 5.0.2     
+ 9:17:57 - Editar Change.log da 5.0.3     
+ 9:17:57 - Limpar DCUs 5.0.2      
+ 9:17:57 - Limpar Flextotal       
+ 9:17:59 - Limpar FrameworkDelphi       
+ 9:18:00 - Limpar Integracao       
+ 9:18:00 - Limpar NucleoFlextotal       
+ 9:18:01 - Limpar ACBr       
+ 9:18:02 - Update Fontes Versao 5.0.2     
+ 9:18:02 - Update 5.0.2       
+ 9:18:03 - Update svnteste       
+ 9:18:04 - Alterar a Versao nos Projetos da 5.0.2  
+ 9:18:04 - Incrementa FlexSmart       
+ 9:18:05 - Incrementa Integrador       
+ 9:18:05 - Incrementa Importador       
+ 9:18:06 - Abrir Delphi e Construir Projetos da 5.0.2  
+ 9:18:34 - Limpar DCUs 5.0.3      
+ 9:18:34 - Limpar Flextotal       
+ 9:18:37 - Limpar FrameworkDelphi       
+ 9:18:37 - Limpar Integracao       
+ 9:18:37 - Limpar NucleoFlextotal       
+ 9:18:39 - Limpar ACBr       
+ 9:18:39 - Update Fontes Versao 5.0.3     
+ 9:18:39 - Update 5.0.3       
+ 9:18:40 - Update svntrunk       
+ 9:18:41 - Update Change.log no trunk     
+ 9:18:41 - Alterar a Versao nos Projetos da 5.0.3  
+ 9:18:41 - Incrementa FlexSmart       
+ 9:18:42 - Incrementa Integrador       
+ 9:18:42 - Incrementa Importador       
+ 9:18:43 - Abrir Delphi e Construir Projetos da 5.0.3  
+ 9:22:56 - Compactar Executaveis       
+ 9:22:56 - Compactar FlexSmart       
+ 9:22:56 - Compactar Importador       
+ 9:22:56 - Compactar Integrador       
+ 9:23:56 - Copiar Arquivos para Distribuicao     
+ 9:23:57 - Copiar Executaveis para svntrunk     
+ 9:23:59 - Copiar Mapas para svntrunk     
+ 9:23:59 - Copiar DDLs para svntrunk     
+ 9:24:01 - Copiar Change.log para svntrunk     
+ 9:24:02 - Copiar Change.log para trunk     
+ 9:24:02 - Commit 5.0.3       
+ 9:24:02 - Commit C:\Fontes\flextotal_5_0_3       
+ 9:24:18 - Copiar Arquivos para Distribuicao     
+ 9:24:18 - Copiar Executaveis para svnteste     
+ 9:24:18 - Copiar Mapas para svnteste     
+ 9:24:18 - Copiar DDLs para svnteste     
+ 9:24:20 - Copiar Change.log para svnteste     
+ 9:24:20 - Commit 5.0.2       
+ 9:24:20 - Commit C:\Fontes\flextotal_5_0_2       
+ 9:24:38 - Commit C:\Distribuicao\svntrunk       
+ 9:25:51 - Commit C:\Distribuicao\svnteste       
+ 9:26:55 - Alterar a SITUACAO dos chamados da 5.0.2  
+ 9:26:55 - Atribuir os chamados a NINGUEM    
+ 9:26:55 - COLAR o Log dos chamados da 5.0.2  
+ 9:26:59 - Commit C:\Fontes\trunk\Change.log       
+ 9:27:41 - Alterar a SITUACAO dos chamados da 5.0.3  
+ 9:27:41 - Atribuir os chamados a NINGUEM    
+ 9:27:41 - COLAR o Log dos chamados da 5.0.3  

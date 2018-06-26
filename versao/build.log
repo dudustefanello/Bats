@@ -1383,8 +1383,8 @@ dcc32 command line for "IntegracaoPAFECF.dpr"
 [dcc32 Hint] uFaturaPedidoVenda.pas(417): H2077 Value assigned to 'TFaturaPedidoVenda.BaixaEstoqueEnderecoPedido' never used
 [dcc32 Hint] uCancelaDocumentoSaida.pas(195): H2077 Value assigned to 'TCancelaDocumentoSaida.DefineSituacaoPedidoVendaCancelado' never used
 [dcc32 Hint] uCancelaDocumentoSaida.pas(240): H2077 Value assigned to 'TCancelaDocumentoSaida.fGerarTarefaCancelamentoNotaFiscal' never used
-[dcc32 Hint] uDocumentoFiscalSaida.pas(2771): H2077 Value assigned to 'TDocumentoFiscalSaida.fGeraNFCPedidoVenda' never used
-[dcc32 Hint] uDocumentoFiscalSaida.pas(2029): H2077 Value assigned to 'TDocumentoFiscalSaida.fGeraNFCPedidoVenda' never used
+[dcc32 Hint] uDocumentoFiscalSaida.pas(2772): H2077 Value assigned to 'TDocumentoFiscalSaida.fGeraNFCPedidoVenda' never used
+[dcc32 Hint] uDocumentoFiscalSaida.pas(2030): H2077 Value assigned to 'TDocumentoFiscalSaida.fGeraNFCPedidoVenda' never used
 [dcc32 Hint] scExcelExport.pas(1772): H2443 Inline function 'TFont.GetStyle' has not been expanded because unit 'System.UITypes' is not specified in USES list
 [dcc32 Hint] scExcelExport.pas(1773): H2443 Inline function 'TFont.GetStyle' has not been expanded because unit 'System.UITypes' is not specified in USES list
 [dcc32 Hint] scExcelExport.pas(1774): H2443 Inline function 'TFont.GetStyle' has not been expanded because unit 'System.UITypes' is not specified in USES list
@@ -1393,13 +1393,13 @@ dcc32 command line for "IntegracaoPAFECF.dpr"
 [dcc32 Hint] scExcelExport.pas(3094): H2443 Inline function 'TFont.GetStyle' has not been expanded because unit 'System.UITypes' is not specified in USES list
 [dcc32 Hint] uclPedidoVenda.pas(4690): H2077 Value assigned to 'TPedidoVenda.fLancaItemKit' never used
 [dcc32 Hint] uclPedidoVenda.pas(4701): H2077 Value assigned to 'TPedidoVenda.fLancaItemKit' never used
-[dcc32 Hint] uclPedidoVenda.pas(6099): H2077 Value assigned to 'TPedidoVenda.fTributaItem' never used
-[dcc32 Hint] uclPedidoVenda.pas(6543): H2077 Value assigned to 'TPedidoVenda.fBloqueiaValorMinimoPedidoCondFormaPgto' never used
-[dcc32 Hint] uclPedidoVenda.pas(8509): H2077 Value assigned to 'TPedidoVenda.fValidaConsumidorFinal' never used
-[dcc32 Hint] uclPedidoVenda.pas(8494): H2077 Value assigned to 'TPedidoVenda.fValidaConsumidorFinal' never used
-[dcc32 Hint] uclPedidoVenda.pas(8477): H2077 Value assigned to 'TPedidoVenda.fValidaConsumidorFinal' never used
-[dcc32 Hint] uclPedidoVenda.pas(8465): H2077 Value assigned to 'TPedidoVenda.fValidaConsumidorFinal' never used
-[dcc32 Hint] uclPedidoVenda.pas(10621): H2077 Value assigned to 'TPedidoVenda.fRecalculaTotalizadoresItens' never used
+[dcc32 Hint] uclPedidoVenda.pas(6101): H2077 Value assigned to 'TPedidoVenda.fTributaItem' never used
+[dcc32 Hint] uclPedidoVenda.pas(6545): H2077 Value assigned to 'TPedidoVenda.fBloqueiaValorMinimoPedidoCondFormaPgto' never used
+[dcc32 Hint] uclPedidoVenda.pas(8511): H2077 Value assigned to 'TPedidoVenda.fValidaConsumidorFinal' never used
+[dcc32 Hint] uclPedidoVenda.pas(8496): H2077 Value assigned to 'TPedidoVenda.fValidaConsumidorFinal' never used
+[dcc32 Hint] uclPedidoVenda.pas(8479): H2077 Value assigned to 'TPedidoVenda.fValidaConsumidorFinal' never used
+[dcc32 Hint] uclPedidoVenda.pas(8467): H2077 Value assigned to 'TPedidoVenda.fValidaConsumidorFinal' never used
+[dcc32 Hint] uclPedidoVenda.pas(10623): H2077 Value assigned to 'TPedidoVenda.fRecalculaTotalizadoresItens' never used
 [dcc32 Hint] uDocumentoFiscal.pas(2679): H2164 Variable 'NFI_FUNC_PARTICIP' is declared but never used in 'TDocumentoFiscal.fGravaDados'
 [dcc32 Hint] uDocumentoFiscal.pas(3647): H2077 Value assigned to 'TDocumentoFiscal.fInutilizaNFe' never used
 [dcc32 Hint] uDocumentoFiscal.pas(3721): H2077 Value assigned to 'TDocumentoFiscal.fInutilizaNFe' never used
@@ -1410,13 +1410,14 @@ dcc32 command line for "IntegracaoPAFECF.dpr"
 [dcc32 Hint] uCancelaNFSaida.pas(581): H2077 Value assigned to 'TCancelaNFSaida.fCancelaDocumento' never used
 [dcc32 Hint] ACBrConsultaCNPJ.pas(225): H2077 Value assigned to 'TACBrConsultaCNPJ.Consulta' never used
 [dcc32 Hint] ACBrConsultaCPF.pas(252): H2077 Value assigned to 'TACBrConsultaCPF.Consulta' never used
+[dcc32 Hint] uCondicional.pas(1001): H2077 Value assigned to 'novoClienteFatura' never used
 [dcc32 Warning] pmdfeEventoMDFe.pas(133): W1055 PUBLISHED caused RTTI ($M+) to be added to type 'TRetInfEvento'
 [dcc32 Hint] pmdfeEnvEventoMDFe.pas(314): H2077 Value assigned to 'TEventoMDFe.LerFromIni' never used
 [dcc32 Hint] uclVenda.pas(2944): H2077 Value assigned to 'TVenda.fGravarDadosPedido' never used
 [dcc32 Hint] uCriaPedidoCupomFiscal.pas(206): H2443 Inline function 'TDataSet.IsEmpty' has not been expanded because unit 'Data.DB' is not specified in USES list
 [dcc32 Hint] uCriaPedidoCupomFiscal.pas(373): H2443 Inline function 'TDataSet.IsEmpty' has not been expanded because unit 'Data.DB' is not specified in USES list
-[dcc32 Hint] uCriaPedidoCupomFiscal.pas(430): H2443 Inline function 'TDataSet.IsEmpty' has not been expanded because unit 'Data.DB' is not specified in USES list
-[dcc32 Hint] uCriaPedidoCupomFiscal.pas(530): H2443 Inline function 'TDataSet.IsEmpty' has not been expanded because unit 'Data.DB' is not specified in USES list
+[dcc32 Hint] uCriaPedidoCupomFiscal.pas(432): H2443 Inline function 'TDataSet.IsEmpty' has not been expanded because unit 'Data.DB' is not specified in USES list
+[dcc32 Hint] uCriaPedidoCupomFiscal.pas(537): H2443 Inline function 'TDataSet.IsEmpty' has not been expanded because unit 'Data.DB' is not specified in USES list
 [dcc32 Hint] uFaturaPedidoVendaPDVFlex.pas(164): H2443 Inline function 'TDataSet.IsEmpty' has not been expanded because unit 'Data.DB' is not specified in USES list
 [dcc32 Hint] uFaturaPedidoVendaPDVFlex.pas(204): H2443 Inline function 'TDataSet.IsEmpty' has not been expanded because unit 'Data.DB' is not specified in USES list
 [dcc32 Hint] uFaturaPedidoVendaPDVFlex.pas(317): H2443 Inline function 'TDataSet.IsEmpty' has not been expanded because unit 'Data.DB' is not specified in USES list
@@ -1425,7 +1426,7 @@ dcc32 command line for "IntegracaoPAFECF.dpr"
 [dcc32 Hint] uFaturaPedidoVendaPDVFlex.pas(480): H2443 Inline function 'TDataSet.IsEmpty' has not been expanded because unit 'Data.DB' is not specified in USES list
 [dcc32 Hint] uFaturaPedidoVendaPDVFlex.pas(552): H2443 Inline function 'TDataSet.IsEmpty' has not been expanded because unit 'Data.DB' is not specified in USES list
 [dcc32 Hint] uFaturaPedidoVendaPDVFlex.pas(694): H2443 Inline function 'TDataSet.IsEmpty' has not been expanded because unit 'Data.DB' is not specified in USES list
-[dcc32 Hint] uFaturaPedidoVendaPDVFlex.pas(829): H2443 Inline function 'TDataSet.IsEmpty' has not been expanded because unit 'Data.DB' is not specified in USES list
+[dcc32 Hint] uFaturaPedidoVendaPDVFlex.pas(830): H2443 Inline function 'TDataSet.IsEmpty' has not been expanded because unit 'Data.DB' is not specified in USES list
 [dcc32 Hint] uSincTabelaFlex.pas(70): H2443 Inline function 'TDataSet.IsEmpty' has not been expanded because unit 'Data.DB' is not specified in USES list
 [dcc32 Hint] uSincTabelaFlex.pas(177): H2443 Inline function 'TDataSet.IsEmpty' has not been expanded because unit 'Data.DB' is not specified in USES list
 [dcc32 Hint] H2161 Warning: Duplicate resource:  Type 10 (RCDATA), ID PLATFORMTARGETS; File C:\Fontes\flextotal_5_0_3\Flextotal\src\integracao pafecf\IntegracaoPAFECF.res resource kept; file C:\Fontes\flextotal_5_0_3\Flextotal\src\integracao pafecf\IntegracaoPAFECF.res resource discarded.
@@ -2161,7 +2162,7 @@ dcc32 command line for "ImportacaoPedidosVenda.dpr"
 [dcc32 Warning] fNFEntrada.pas(1099): W1058 Implicit string cast with potential data loss from 'string' to 'AnsiString'
 [dcc32 Hint] ACBrCTeDACTEFR.pas(2659): H2077 Value assigned to 'Child' never used
 [dcc32 Warning] uCTeAcbr.pas(917): W1058 Implicit string cast with potential data loss from 'string' to 'AnsiString'
-[dcc32 Warning] fConsultaProdutoDetalhada.pas(2247): W1057 Implicit string cast from 'AnsiString' to 'string'
+[dcc32 Warning] fConsultaProdutoDetalhada.pas(2249): W1057 Implicit string cast from 'AnsiString' to 'string'
 [dcc32 Warning] xConsultaFinanceira.pas(1263): W1058 Implicit string cast with potential data loss from 'string' to 'AnsiString'
 [dcc32 Warning] xConsultaFinanceira.pas(1264): W1058 Implicit string cast with potential data loss from 'string' to 'AnsiString'
 [dcc32 Warning] xConsultaFinanceira.pas(1265): W1058 Implicit string cast with potential data loss from 'string' to 'AnsiString'
@@ -4934,8 +4935,6 @@ dcc32 command line for "ImportacaoPedidosVenda.dpr"
 [dcc32 Warning] cWMS_ENDERECO_ESTOQUE.pas(3542): W1057 Implicit string cast from 'AnsiString' to 'string'
 [dcc32 Warning] cWMS_ENDERECO_ESTOQUE.pas(3545): W1057 Implicit string cast from 'AnsiString' to 'string'
 [dcc32 Warning] fAjusteSaldoEnderecoEstoque.pas(154): W1057 Implicit string cast from 'AnsiString' to 'string'
-[dcc32 Warning] pmdfeEventoMDFe.pas(133): W1055 PUBLISHED caused RTTI ($M+) to be added to type 'TRetInfEvento'
-[dcc32 Hint] pmdfeEnvEventoMDFe.pas(314): H2077 Value assigned to 'TEventoMDFe.LerFromIni' never used
 [dcc32 Warning] uExtenso.pas(100): W1057 Implicit string cast from 'ShortString' to 'string'
 [dcc32 Warning] uExtenso.pas(129): W1057 Implicit string cast from 'ShortString' to 'string'
 [dcc32 Warning] uExtenso.pas(130): W1057 Implicit string cast from 'ShortString' to 'string'
@@ -5036,4 +5035,4 @@ dcc32 command line for "ImportacaoPedidosVenda.dpr"
 [dcc32 Warning] fCadPainelInformativo.pas(311): W1058 Implicit string cast with potential data loss from 'TCaption' to 'AnsiString'
 [dcc32 Hint] ImportacaoPedidosVenda.dpr(29): H2164 Variable 'frmPedidoVenda' is declared but never used in 'ImportacaoPedidosVenda'
 Success
-Elapsed time: 00:04:23.1
+Elapsed time: 00:04:11.6
