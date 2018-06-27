@@ -50,6 +50,8 @@ for linha in linhas:
 
     texto += linha
 
+subprocess.call(['C:/Fontes/trunk/AtualizadorScriptsBanco/Win32/AtualizadorScriptsBanco.exe'])
+
 chamado = chamado.replace('#', '')
 subprocess.call(['C:/Users/eduar/AppData/Local/Vivaldi/Application/vivaldi', '--new-window', link + chamado])
 pyperclip.copy('h1. #info\n\n' + texto);
