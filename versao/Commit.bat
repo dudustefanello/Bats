@@ -8,8 +8,8 @@
   @ TortoiseProc.exe /path:"C:\Distribuicao\%REPOSITORIO%" /closeonend:3 /command:commit /logmsgfile:"C:\Users\eduar\GitHub\Bats\versao\toCommit%2.txt"
 
 @ if %2 equ %TRUNK% (
-    @ %LOGGING% Commit C:\Fontes\trunk\Change.log
-      @ TortoiseProc.exe /path:"C:\Fontes\trunk\FlexTotal\Change.log" /closeonend:3 /command:commit /logmsgfile:"C:\Users\eduar\GitHub\Bats\versao\versao\toCommit%2.txt"
+  @ %LOGGING% Commit C:\Fontes\trunk\Change.log
+    @ TortoiseProc.exe /path:"C:\Fontes\trunk\FlexTotal\Change.log" /closeonend:3 /command:commit /logmsgfile:"C:\Users\eduar\GitHub\Bats\versao\versao\toCommit%2.txt"
   )
 
 @ exit
