@@ -1,3 +1,5 @@
+# coding: utf-8
+
 import pyperclip
 import subprocess
 import time
@@ -11,16 +13,19 @@ link = 'http://104.236.197.223/sac/issues/'
 
 titulos = [('###### ','h6. '),('##### ','h5. '),('#### ','h4. '),('### ','h3. '),('## ','h2. '),('# ','h1. ')]
 
-negrito = [(' **', ' *'),('** ', '* '),('**,', '*,'),('**.', '*.'),('**:', '*:'),('**;', '*;')]
-
-indices = [('      - ', '**** '),('    - ', '*** '),('  - ', '** '),('- ', '* '),
-           ('      1. ','#### '),('    1. ','### '),('  1. ','## '),('1. ','# ')]
+indices = [('      - ', '      * '),('    - ', '    * '),('  - ', '  * '),('- ', '* '),
+           ('      1. ','      # '),('    1. ','    # '),('  1. ','  # '),('1. ','# ')]
 
 delphi  = [(' ``', ' <code class="Delphi">'),('`` ', '</code> '),('``.', '</code>.'),
            ('``,', '</code>,'),('``:', '</code>:'),('``;', '</code>;')]
 
-codigos = [(' `', ' @'),('` ', '@ '),('`,', '@,'),('`.', '@.'),('`:', '@:'),('`;', '@;')]
+codigos = [(' `', ' @'),('` ', '@ '),
+           ('\n`', '\n@'),('`\n', '@\n'),
+           ('`,', '@,'),('`.', '@.'),
+           ('`:', '@:'),('`;', '@;'),
+           ('`)', '@)'),('(`', '(@')]
 
+negrito = [(' **', ' *'),('** ', '* '),('**,', '*,'),('**.', '*.'),('**:', '*:'),('**;', '*;')]
 
 arquivo = open('info.md', 'r')
 texto = arquivo.read()
@@ -51,6 +56,8 @@ for linha in linhas:
 
     texto += linha
 
+print(texto)
+
 subprocess.call(['C:/Fontes/trunk/AtualizadorScriptsBanco/Win32/AtualizadorScriptsBanco.exe'])
 
 chamado = chamado.replace('#', '')
@@ -58,3 +65,5 @@ subprocess.call(['C:/Users/eduar/AppData/Local/Vivaldi/Application/vivaldi', '--
 pyperclip.copy('h1. #info\n\n' + texto);
 
 subprocess.call(['TortoiseProc.exe', '/path:C:/Fontes/trunk', '/closeonend:3', '/command:commit', '/logmsg:' + '#' + chamado])
+
+# time.sleep(50)
