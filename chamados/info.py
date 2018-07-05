@@ -1,6 +1,7 @@
 import pyperclip
 import subprocess
 import time
+import re
 
 chamado = str()
 texto = str()
@@ -28,8 +29,9 @@ negrito = [(' **', ' *'),('** ', '* '),('**,', '*,'),('**.', '*.'),('**:', '*:')
 arquivo = open('info.md', 'r')
 texto = arquivo.read()
 
-partes = texto.rpartition('#info')
-chamado = partes[0]
+partes = re.split('(#[0-9]{5})', texto, 1)
+
+chamado = partes[1]
 linhas = partes[2].splitlines(True);
 
 texto = ''
@@ -54,16 +56,12 @@ for linha in linhas:
 
     texto += linha
 
-# print(texto)
+ subprocess.call(['C:/Fontes/trunk/AtualizadorScriptsBanco/Win32/AtualizadorScriptsBanco.exe'])
+ chamado = chamado.replace('#', '')
+ subprocess.call(['C:/Users/eduar/AppData/Local/Vivaldi/Application/vivaldi', '--new-window', link + chamado])
+ pyperclip.copy('h1. + texto);
+ subprocess.call(['TortoiseProc.exe', '/path:C:/Fontes/trunk', '/closeonend:3', '/command:commit', '/logmsg:' + '#' + chamado])
 
-subprocess.call(['C:/Fontes/trunk/AtualizadorScriptsBanco/Win32/AtualizadorScriptsBanco.exe'])
-
-chamado = chamado.replace('#', '')
-
-subprocess.call(['C:/Users/eduar/AppData/Local/Vivaldi/Application/vivaldi', '--new-window', link + chamado])
-
-pyperclip.copy('h1. #info\n\n' + texto);
-
-subprocess.call(['TortoiseProc.exe', '/path:C:/Fontes/trunk', '/closeonend:3', '/command:commit', '/logmsg:' + '#' + chamado])
-
-# time.sleep(50)
+#print(chamado)
+#print(texto)
+#time.sleep(50)
