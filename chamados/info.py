@@ -29,7 +29,7 @@ negrito = [(' **', ' *'),('** ', '* '),('**,', '*,'),('**.', '*.'),('**:', '*:')
 arquivo = open('info.md', 'r')
 texto = arquivo.read()
 
-partes = re.split('(#[0-9]{5})', texto, 1)
+partes = re.split('(#[0-9]{5}\n)', texto, 1)
 
 chamado = partes[1]
 linhas = partes[2].splitlines(True);
