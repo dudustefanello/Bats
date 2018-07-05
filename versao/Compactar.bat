@@ -1,4 +1,4 @@
-@ if %2 equ %TESTE% (
+@ if %2 neq %TRUNK% (
   @ %LOGGING% Compactar Executaveis
     @ %LOGGING% Compactar FlexSmart
       @ start C:\Users\eduar\GitHub\Bats\versao\upx.exe C:\Fontes\flextotal_5_0_%TESTE%\Flextotal\bin\Retaguarda\FlexTotal.exe

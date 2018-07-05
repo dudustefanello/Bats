@@ -1,4 +1,4 @@
-@ if %2 equ %TESTE% (
+@ if %2 equ %OLDER% (
   @ %LOGGING% Incrementa FlexSmart
     @ powershell.exe -file .\incrementa.ps1 -arquivo 1
   @ %LOGGING% Incrementa Integrador
@@ -6,7 +6,8 @@
   @ %LOGGING% Incrementa Importador
     @ powershell.exe -file .\incrementa.ps1 -arquivo 3
   )
-@ if %2 equ %TRUNK% (
+
+@ if %2 equ %TESTE% (
   @ %LOGGING% Incrementa FlexSmart
     @ powershell.exe -file .\incrementa.ps1 -arquivo 4
   @ %LOGGING% Incrementa Integrador
@@ -14,4 +15,14 @@
   @ %LOGGING% Incrementa Importador
     @ powershell.exe -file .\incrementa.ps1 -arquivo 6
   )
+
+@ if %2 equ %TRUNK% (
+  @ %LOGGING% Incrementa FlexSmart
+    @ powershell.exe -file .\incrementa.ps1 -arquivo 7
+  @ %LOGGING% Incrementa Integrador
+    @ powershell.exe -file .\incrementa.ps1 -arquivo 8
+  @ %LOGGING% Incrementa Importador
+    @ powershell.exe -file .\incrementa.ps1 -arquivo 9
+  )
+
 @ exit

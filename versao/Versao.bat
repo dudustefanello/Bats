@@ -1,3 +1,4 @@
+@ if %2 equ %OLDER% set REPOSITORIO=temporario
 @ if %2 equ %TESTE% set REPOSITORIO=svnteste
 @ if %2 equ %TRUNK% set REPOSITORIO=svntrunk
 
@@ -11,9 +12,9 @@
   @ %STARTER% Incrementa.bat /i %2
 
 @ %LOGGING% Abrir Delphi e Construir Projetos da 5.0.%2
-  @ start /realtime /wait bds -b C:\Fontes\flextotal_5_0_%2\Flex_5.0.%2.groupproj -oC:\Users\eduar\GitHub\Bats\versao\build.log
+  REM @ start /realtime /wait bds -b C:\Fontes\flextotal_5_0_%2\Flex_5.0.%2.groupproj -oC:\Users\eduar\GitHub\Bats\versao\build%2.log
 
-@ %STARTER% Compactar.bat /i %2
+REM @ %STARTER% Compactar.bat /i %2
 
 @ %LOGGING% Copiar Arquivos para Distribuicao
   @ %STARTER% Copiar.bat /i %2

@@ -1,22 +1,36 @@
 param([int]$arquivo=0)
 
 switch ($arquivo){
-    1 { $caminho = "C:\Fontes\flextotal_5_0_2\Flextotal\src\retaguarda\FlexTotal.dproj"
+    # OLDER
+    1 { $caminho = "C:\Fontes\flextotal_5_0_1\Flextotal\src\retaguarda\FlexTotal.dproj"
         $corta1 = [int]82; $corta2 = [int]83
       }
-    2 { $caminho = "C:\Fontes\flextotal_5_0_2\Flextotal\src\integracao pafecf\IntegracaoPAFECF.dproj"
+    2 { $caminho = "C:\Fontes\flextotal_5_0_1\Flextotal\src\integracao pafecf\IntegracaoPAFECF.dproj"
+        $corta1 = [int]89; $corta2 = [int]90
+      }
+    3 { $caminho = "C:\Fontes\flextotal_5_0_1\Flextotal\src\importa pedidos venda\ImportacaoPedidosVenda.dproj"
+        $corta1 = [int]103; $corta2 = [int]104
+      }
+
+    # TESTE
+    4 { $caminho = "C:\Fontes\flextotal_5_0_2\Flextotal\src\retaguarda\FlexTotal.dproj"
+        $corta1 = [int]82; $corta2 = [int]83
+      }
+    5 { $caminho = "C:\Fontes\flextotal_5_0_2\Flextotal\src\integracao pafecf\IntegracaoPAFECF.dproj"
         $corta1 = [int]93; $corta2 = [int]94
       }
-    3 { $caminho = "C:\Fontes\flextotal_5_0_2\Flextotal\src\importa pedidos venda\ImportacaoPedidosVenda.dproj"
+    6 { $caminho = "C:\Fontes\flextotal_5_0_2\Flextotal\src\importa pedidos venda\ImportacaoPedidosVenda.dproj"
         $corta1 = [int]107; $corta2 = [int]108
       }
-    4 { $caminho = "C:\Fontes\flextotal_5_0_3\Flextotal\src\retaguarda\FlexTotal.dproj"
+
+    # TRUNK
+    7 { $caminho = "C:\Fontes\flextotal_5_0_3\Flextotal\src\retaguarda\FlexTotal.dproj"
         $corta1 = [int]82; $corta2 = [int]83
       }
-    5 { $caminho = "C:\Fontes\flextotal_5_0_3\Flextotal\src\integracao pafecf\IntegracaoPAFECF.dproj"
+    8 { $caminho = "C:\Fontes\flextotal_5_0_3\Flextotal\src\integracao pafecf\IntegracaoPAFECF.dproj"
         $corta1 = [int]93; $corta2 = [int]94
       }
-    6 { $caminho = "C:\Fontes\flextotal_5_0_3\Flextotal\src\importa pedidos venda\ImportacaoPedidosVenda.dproj"
+    9 { $caminho = "C:\Fontes\flextotal_5_0_3\Flextotal\src\importa pedidos venda\ImportacaoPedidosVenda.dproj"
         $corta1 = [int]107; $corta2 = [int]108
       }
 }
