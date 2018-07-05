@@ -12,9 +12,9 @@
   @ %STARTER% Incrementa.bat /i %2
 
 @ %LOGGING% Abrir Delphi e Construir Projetos da 5.0.%2
-  REM @ start /realtime /wait bds -b C:\Fontes\flextotal_5_0_%2\Flex_5.0.%2.groupproj -oC:\Users\eduar\GitHub\Bats\versao\build%2.log
+  @ start /realtime /wait bds -b C:\Fontes\flextotal_5_0_%2\Flex_5.0.%2.groupproj -oC:\Users\eduar\GitHub\Bats\versao\build%2.log
 
-REM @ %STARTER% Compactar.bat /i %2
+@ %STARTER% Compactar.bat /i %2
 
 @ %LOGGING% Copiar Arquivos para Distribuicao
   @ %STARTER% Copiar.bat /i %2
