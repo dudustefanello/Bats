@@ -56,10 +56,10 @@ for linha in linhas:
 
     texto += linha
 
- pyperclip.copy('h1. + texto);
 subprocess.call(['C:/Fontes/trunk/AtualizadorScriptsBanco/Win32/AtualizadorScriptsBanco.exe'])
 chamado = chamado.replace('#', '')
 subprocess.call(['C:/Users/eduar/AppData/Local/Vivaldi/Application/vivaldi', '--new-window', link + chamado])
+pyperclip.copy('h1.' + texto);
 subprocess.call(['TortoiseProc.exe', '/path:C:/Fontes/trunk', '/closeonend:3', '/command:commit', '/logmsg:' + '#' + chamado])
 
 #print(chamado)
