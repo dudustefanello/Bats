@@ -29,7 +29,7 @@ negrito = [(' **', ' *'),('** ', '* '),('**,', '*,'),('**.', '*.'),('**:', '*:')
 arquivo = open('info.md', 'r')
 texto = arquivo.read()
 
-partes = re.split('(#[0-9]{5})', texto, 1)
+partes = re.split('(#[0-9]{5}\n)', texto, 1)
 
 chamado = partes[1]
 linhas = partes[2].splitlines(True);
@@ -59,9 +59,9 @@ for linha in linhas:
 subprocess.call(['C:/Fontes/trunk/AtualizadorScriptsBanco/Win32/AtualizadorScriptsBanco.exe'])
 chamado = chamado.replace('#', '')
 subprocess.call(['C:/Users/eduar/AppData/Local/Vivaldi/Application/vivaldi', '--new-window', link + chamado])
-pyperclip.copy('h1.' + texto);
-subprocess.call(['TortoiseProc.exe', '/path:C:/Fontes/trunk', '/closeonend:3', '/command:commit', '/logmsg:' + '#' + chamado])
+pyperclip.copy('h1. ' + texto);
+subprocess.call(['TortoiseProc.exe', '/path:C:/Fontes/trunk', '/closeonend:0', '/command:commit', '/logmsg:' + '#' + chamado])
 
-#print(chamado)
-#print(texto)
-#time.sleep(50)
+# print(chamado)
+# print('h1.' + texto)
+# time.sleep(50)
