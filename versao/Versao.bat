@@ -11,6 +11,9 @@
 @ %LOGGING% Alterar a Versao nos Projetos da 5.0.%2
   @ %STARTER% Incrementa.bat /i %2
 
+@ %LOGGING% Alterar a Configuração nos Projetos da 5.0.%2
+  @ %STARTER% DebugRelease.bat /i %2
+
 @ %LOGGING% Abrir Delphi e Construir Projetos da 5.0.%2
   @ start /realtime /wait bds -b C:\Fontes\flextotal_5_0_%2\Flex_5.0.%2.groupproj -oC:\Users\eduar\GitHub\Bats\versao\build%2.log
 
