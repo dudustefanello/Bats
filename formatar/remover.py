@@ -55,6 +55,6 @@ for linha in linhas:
     for remove in remover:
         linha = linha.replace(remove, '', 1)
     arquivo = open('.\out.sql', 'a', -1, 'cp1252')
-    arquivo.write(linha + '\n')
+    arquivo.write(linha.lower() + '\n')
     arquivo.close
     print(linha)

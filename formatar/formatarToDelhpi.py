@@ -6,7 +6,7 @@ arquivo.close()
 
 arquivo = open('.\out.sql', 'w', -1, 'cp1252')
 arquivo.write('')
-arquivo.close  
+arquivo.close
 
 linhas = texto.splitlines()
 
@@ -17,7 +17,7 @@ for linha in linhas:
         linha = "    \'" + linha + " \' +"
     arquivo = open('.\out.sql', 'a', -1, 'cp1252')
     arquivo.write(linha + '\n')
-    arquivo.close  
+    arquivo.close
     print(linha)
 
 arquivo = open('.\out.sql', 'r', -1, 'cp1252')
@@ -25,4 +25,3 @@ texto = arquivo.read()
 arquivo.close()
 
 pyperclip.copy(texto)
-
