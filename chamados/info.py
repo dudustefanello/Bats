@@ -16,7 +16,7 @@ indices = [('      - ', '      * '),('    - ', '    * '),('  - ', '  * '),('- ',
            ('      1. ','      # '),('    1. ','    # '),('  1. ','  # '),('1. ','# ')]
 
 delphi  = [(' ``', ' <code class="Delphi">'),('`` ', '</code> '),('``.', '</code>.'),
-           ('``,', '</code>,'),('``:', '</code>:'),('``;', '</code>;')]
+           ('``,', '</code>,'),('``:', '</code>:'),('``;', '</code>;'),('``\n', '</code>\n')]
 
 codigos = [(' `', ' @'),('` ', '@ '),
            ('\n`', '\n@'),('`\n', '@\n'),
@@ -58,8 +58,8 @@ for linha in linhas:
 
 subprocess.call(['C:/Fontes/trunk/AtualizadorScriptsBanco/Win32/AtualizadorScriptsBanco.exe'])
 chamado = chamado.replace('#', '')
-subprocess.call(['C:/Users/eduar/AppData/Local/Vivaldi/Application/vivaldi', '--new-window', link + chamado])
 pyperclip.copy('h1. ' + texto);
+subprocess.call(['C:/Users/eduar/AppData/Local/Vivaldi/Application/vivaldi', '--new-window', link + chamado])
 subprocess.call(['TortoiseProc.exe', '/path:C:/Fontes/trunk', '/closeonend:0', '/command:commit', '/logmsg:' + '#' + chamado])
 
 # print(chamado)
