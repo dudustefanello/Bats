@@ -4,8 +4,8 @@
 
 @ dir
 
+@ set /p caminho=Arquivo...:
 @ set /p database=Database.:
-@ set /p caminho=Caminho..:
 
 @ set /p tipo=[1.psql/2.pg_restore]:
 
