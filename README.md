@@ -34,6 +34,7 @@
   /// <param name="qt_venda">Quantidade vendida</param>
   /// <returns> O valor do item na tabela padrão, -1 se não encontrar</returns>
   ```
+* Programa para inserir todos as units no projeto
 
 ## Para Terminar:
 * Programa que formata os comandos SQL:
